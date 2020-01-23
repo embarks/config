@@ -1,0 +1,14 @@
+[user]
+	email = frank@emwaves.org
+	name = Emily Bartman
+
+[alias]
+po = push origin
+pom = push origin master
+force = push origin --force
+ci = commit -m 
+rebasey = rebase -i 
+this = !git add . && git commit -m
+branchy=checkout -fB
+ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+undo = reset --soft HEAD~1
